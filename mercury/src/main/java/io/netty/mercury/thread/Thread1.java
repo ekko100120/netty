@@ -13,9 +13,9 @@ public class Thread1 extends Thread {
         for (int i = 0; i < 5; i++) {
 //            System.out.println( name+":"+i+" is running.");
             try {
-                System.out.println(name + " thread:" + Thread.interrupted());
+                System.out.println(name + " thread:" + Thread.currentThread().isInterrupted());
                 Thread.sleep(10000);
-                System.out.println(name + " thread:" + Thread.interrupted());
+                System.out.println(name + " thread:" + Thread.currentThread().isInterrupted());
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }

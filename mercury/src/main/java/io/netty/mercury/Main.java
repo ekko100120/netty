@@ -12,11 +12,11 @@ public class Main {
 //        new Thread(new Thread2("CCC")).start();
 ////        new Thread(new Thread2("DDD")).start();
 
-        SychronizedThread sychronizedThread = new SychronizedThread();
-        Thread thread1 = new Thread(sychronizedThread, "a");
-        Thread thread2 = new Thread(sychronizedThread, "b");
-        thread1.start();
-        thread2.start();
+//        SychronizedThread sychronizedThread = new SychronizedThread();
+//        Thread thread1 = new Thread(sychronizedThread, "a");
+//        Thread thread2 = new Thread(sychronizedThread, "b");
+//        thread1.start();
+//        thread2.start();
 
 
     }
